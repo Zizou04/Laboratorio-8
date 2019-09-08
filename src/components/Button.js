@@ -8,12 +8,11 @@ class Button extends Component {
     }
 
     render() {
-        return ( <
-            button className = "add-button"
-            onClick = { this._add.bind(this) } > { this.props.name } <
-            /button>
+        return ( <button className = "add-button"
+            onClick = { this._add.bind(this) } > { this.props.name } </button>
         )
     }
 }
 
 export default Button;
+
